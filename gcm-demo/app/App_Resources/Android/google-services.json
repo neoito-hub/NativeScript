@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "257046713956",
+    "firebase_url": "https://repoto-fcm.firebaseio.com",
+    "project_id": "repoto-fcm",
+    "storage_bucket": "repoto-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257046713956:android:69c986d6cf8ddc6e",
+        "android_client_info": {
+          "package_name": "org.nativescript.gcmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257046713956-7iclpvp5jgi0r6cr8j4fvaq116fjqtgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtTtr8O1hzCEB0JGMsOZDkJOI7cImeLxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
