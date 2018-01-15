@@ -1,0 +1,54 @@
+<!-- >> angular-sidedrawer-location -->
+<RadSideDrawer [drawerLocation]="currentLocation" tkExampleTitle tkToggleNavButton  drawerContentSize="350">
+    <!-- << angular-sidedrawer-location -->
+    <StackLayout tkDrawerContent class="sideStackLayout">
+        <StackLayout class="sideTitleStackLayout">
+            <Label text="Navigation Menu"></Label>
+        </StackLayout>          
+        <GridLayout columns="*,*,*" rows="*,*" class="layout-container">
+          <StackLayout row="0" col="0">
+            <StackLayout tap="child" class="btn-meroon" width="80px" height="80px">
+              <label text="&#xf207;" class="material-icon main_icon" horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Child" marginLeft="60px"></label>
+            </StackLayout>
+            <StackLayout  row="0" col="1">
+            <StackLayout tap="report" class="btn-yellow" width="80px" height="80px">
+             <label text="&#xf222;" class="material-icon main_icon" horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Parent Report" marginLeft="40px"></label>            
+            </StackLayout>
+            <StackLayout  row="0" col="2">                
+            <StackLayout  tap="morReport" class="btn-skyblue " width="80px" height="80px">
+              <label text="&#xf222;" class="material-icon main_icon" horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Teacher Report" marginLeft="40px"></label>            
+            </StackLayout>  
+            <StackLayout  row="1" col="0">                                
+            <StackLayout class="btn-green"width="80px" height="80px">
+              <label text="&#xf140;" class="material-icon main_icon"  horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Photos" marginLeft="50px"></label>            
+            </StackLayout>            
+            <StackLayout  row="1" col="1">                                                
+            <StackLayout class="btn-teal" width="80px" height="80px">
+              <label text="&#xf331;" class="material-icon main_icon"  horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Calender" marginLeft="50px"></label> 
+            </StackLayout>   
+            <StackLayout  row="1" col="2">                                                               
+            <StackLayout class="btn-lightYellow"  tap="announcement" width="80px" height="80px">
+              <label text="&#xf3bc;" class="material-icon main_icon"  horizontalAlignment="center"></label>
+            </StackLayout>
+            <label text="Announcement" marginLeft="40px"></label> 
+            </StackLayout>            
+        </GridLayout>       
+    </StackLayout>
+    <StackLayout tkMainContent class="mainContent">
+        <ScrollView>
+            <StackLayout>
+                <Button text="Bottom" (tap)="onBottomLocationTap()" class="drawerContentButton"></Button>
+            </StackLayout>
+          </ScrollView>
+    </StackLayout>
+</RadSideDrawer>

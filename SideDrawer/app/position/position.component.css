@@ -1,0 +1,137 @@
+button {
+    font-size: 15;
+    horizontal-align: center;
+}
+
+.drawerContentText {
+    font-size: 13;
+    padding: 10;
+}
+
+.mainContent{
+    background-color: white;
+}
+
+.drawerContentButton {
+    margin: 10;
+    horizontal-align: left;
+}
+
+.sideStackLayout {
+    background-color: rgb(197, 226, 197);
+}
+
+.sideTitleStackLayout {
+    height: 56;
+    text-align: center;
+    vertical-align: center;
+}
+
+.sideLabel {
+    padding: 10;
+}
+
+.sideLightGrayLabel {
+    background-color: lightgray;
+}
+
+
+
+
+
+
+.hedline_action_bar {
+    padding-left: 8;
+}
+
+.headerIcon {
+    padding-right: 10;
+    font-size: 28;
+    margin-top: 10;
+}
+
+.headerText {
+    padding-bottom: 11;
+    font-size: 25;
+}
+
+.layout-container {
+    margin: 5;
+    opacity: 0.9;
+}
+
+.btn-meroon {
+    background-color: #1792d6;
+    border-radius: 170px;
+    margin: 3;    
+    
+}
+
+.btn-red {
+    background-color: #d42931;
+    border-radius: 170px;
+    
+}
+
+.btn-yellow {
+    background-color: #790ac9;
+    margin: 3;
+    border-radius: 170px;
+    
+}
+
+.btn-lightYellow {
+    background-color: #aa7c1d;
+    margin: 3;
+    border-radius: 170px;
+    
+}
+
+.btn-teal {
+    background-color: #00897B;
+    margin: 3;
+    border-radius: 170px;
+    
+}
+
+.btn-skyblue {
+    background-color: #026b16;
+    margin: 3;
+    border-radius: 170px;
+    
+}
+
+.btn-green {
+    background-color: #990a66;
+    margin: 3;
+    border-radius: 170px;
+    
+}
+
+.btn-dark {
+    background-color: #aa7c1d;
+    margin: 3;
+    border-radius: 170px;    
+}
+
+.material-icon {
+    font-family: 'Material-Design-Iconic-Font';
+   border-top: 5px
+}
+
+.large-text {
+    font-size: 15;
+    color: #eeeeee;
+    padding-left: 5;
+}
+
+.main_icon {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
