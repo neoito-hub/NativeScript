@@ -1,0 +1,8 @@
+<ActionBar title="My App" class="action-bar">
+</ActionBar>
+
+<GridLayout>
+    <ImageSwipe [items]="items" imageUrlProperty="imageUrl" 
+                [pageNumber]="pageNumber" (pageChanged)="pageChanged($event)" backgroundColor="#FFFFFF">
+    </ImageSwipe>
+</GridLayout>

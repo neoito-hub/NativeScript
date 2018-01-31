@@ -1,3 +1,10 @@
 .display{
   font-size: 20px;
 }
+.imgstyle {
+  border: 10px solid yellow;
+}
+.fontstyle{
+  font-weight: bold;
+  font-size: 30px;
+}

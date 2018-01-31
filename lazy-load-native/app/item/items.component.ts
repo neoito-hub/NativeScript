@@ -7,7 +7,6 @@ import { ItemService } from './item.service';
     moduleId: module.id,
     templateUrl: "./items.component.html",
     styleUrls: ["./list-test.css"],
-
 })
 export class ItemsComponent{
     public myItems: string[] = [];    
