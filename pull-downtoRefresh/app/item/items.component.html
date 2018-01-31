@@ -1,0 +1,13 @@
+<ActionBar title="Myy App" class="action-bar">
+</ActionBar>
+<StackLayout class="p-20">
+    <PullToRefresh (refresh)="refreshMe($event)">
+        <ListView [items]="myItems">
+            <ng-template let-item="item" let-i="index">
+                <StackLayout>
+                    <Label [text]='"index: " + i'></Label>
+                </StackLayout>
+            </ng-template>
+        </ListView>
+    </PullToRefresh>
+</StackLayout>
