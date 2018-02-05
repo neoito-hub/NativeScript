@@ -1,0 +1,27 @@
+<ActionBar title="My Favorites" class="action-bar">
+  </ActionBar>
+  <RadSideDrawer #drawerComponent tkToggleNavButton showOverNavigation="true">
+      <ScrollView tkDrawerContent class="sidedrawer-left">
+          <StackLayout horizontalAlign="left">
+              <drawer-content></drawer-content>
+          </StackLayout>
+      </ScrollView>
+      <StackLayout tkMainContent class="page">
+          <RadListView #myListView [items]="favorites" *ngIf="favorites"
+              >
+              <ListViewGridLayout scrollDirection="Vertical" spanCount="2" tkListViewLayout scrollDirection="vertical"
+                  itemInsertAnimation="Default" itemDeleteAnimation="Default">
+              </ListViewGridLayout>
+              <ng-template tkListItemTemplate let-item="item">
+                  <GridLayout>
+                      <Image height="178" width="178"
+                          [src]="BaseURL + item.image" class="thumb"></Image>
+                  </GridLayout>
+              </ng-template>
+          </RadListView>
+          <ActivityIndicator busy="true" *ngIf="!(favorites || errMess)" width="50"
+              height="50" class="activity-indicator"></ActivityIndicator>
+          <Label *ngIf="errMess" [text]="'Error: ' + errMess"></Label>
+  
+      </StackLayout>
+  </RadSideDrawer>
